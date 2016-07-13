@@ -1,0 +1,15 @@
+<h1>Database Table</h1>
+  <form action="/" method="post">
+    <h3>View users with access</h3>
+    <table border="1">
+    <tr>
+      %for i in usrkeys:
+      <td>{{i}}</td>
+      %end
+    </tr>
+    <tr>
+      %for i in usrvals:
+      <td>{{i}}</td>
+      %end
+    </tr>
+  </form>
